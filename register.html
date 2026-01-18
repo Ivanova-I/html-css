@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Website</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class= "register">
+
+<header class= "register1">
+  <h1>You can register here</h1>
+</header>
+
+<nav>
+ <ul class="topnav">
+  <li><a href="index.html"> 🏠 Home</a></li>
+  <li><a href="news.html"> 📰  News</a></li>
+  
+  <li><a href="about.html"> ℹ️ About</a></li>
+  <li><a href="register.html"> 📞 Register</a></li>
+</ul>
+</nav>
+
+<main>
+ <section>
+   <p><strong> You can register here </strong> </p> 
+   
+    <form action="register.php" method="post">
+
+    <div class="input-box">
+        <span class="icon">👤</span>
+        <input type="text" name="name" placeholder=" 👤Your Username" required autofocus>
+    </div>
+
+    <div class="input-box">
+        <span class="icon">📧</span>
+        <input type="email" name="email" placeholder="📧 Your Email" required>
+    </div>
+
+    <div class="input-box">
+        <span class="icon">🔒</span>
+        <input type="password" name="password" placeholder=" 🔒Your Password" required>
+    </div>
+
+    <p class="help-text">
+        ❓ Forgot your password?
+        <a href="reset_password.php">Click here to change it</a>
+    </p>
+
+    <input type="submit" value="Register">
+
+</form>
+</form>
+</section>
